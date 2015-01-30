@@ -91,7 +91,7 @@
 					Atte. Miscelania Todo Barato. Guerrero Negro, B.C.S.
 				</p>
 			</div>
-
+            <!--comentrios-->
 			<div id="divImgChava">
 					<img src="img/chica.jpg"id="imgChica">
 			</div>
