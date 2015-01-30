@@ -1,0 +1,33 @@
+html{
+	width: 100%;
+	background:#000000
+}
+
+body{
+	width: 100%;
+	background:#000000
+}
+
+
+#Contenedor(){
+	margin: 0 auto
+}
+
+h3{
+	width: 20%;
+	text-align: center;
+	margin: 0 auto
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 2px  double #ff002b;
+}
+
+form input{
+	margin: 0 auto;
+}
