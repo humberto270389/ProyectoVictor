@@ -49,6 +49,8 @@
 				</SELECT>
 				<input type="file" name="archivo"> 
 				<input type="submit" class="btn-danger" id="btnGuardar" name="btnGuardar" value="Guardar edición">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt dolor accusantium error, nulla sed est, voluptatem consequatur iste cumque ut quam ipsa deserunt cupiditate id. Similique repellat tenetur id.</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique beatae aliquam dignissimos maxime sunt repudiandae consectetur eius dolore tempore aperiam perferendis, magni quod omnis. Possimus voluptatem, hic dicta. Tenetur, amet.
 			</form>
 		</div>
 	</div>
