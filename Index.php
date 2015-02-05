@@ -72,6 +72,7 @@
         </div>
 
     </header>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis maiores est vel aut. Provident sapiente, architecto accusantium repudiandae, nisi et tempora nesciunt at rem quam placeat nemo suscipit fuga sunt.</p>
 
     <section id="secInicioSesion">
         <div id="divCont">
