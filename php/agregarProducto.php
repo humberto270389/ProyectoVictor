@@ -30,7 +30,8 @@
 			</SELECT>
 			<br>
 			<label>Seleccione la imagen del producto:</label>
-			<input type="file" name="archivo">			
+			<input type="file" name="archivo">
+
 			<input type="submit" id="btnIniciar" class="btn-danger btn btn-sm" name="btnIniciar" value="Guardar producto">
 		</form>
 
