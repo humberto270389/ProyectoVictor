@@ -24,9 +24,9 @@
 
 </head>
 <body>
-	<div="divContEdicion">
+	<div id="divContEdicion">
 		<div id="divProducto">
-		<div id="divImgProduc">
+		    <div id="divImgProduc">
 			
 		 		<?php
 		 		 
@@ -35,23 +35,22 @@
 
 			   		foreach($tipos as $indice => $registro){
 		    				echo '<img id="imgProducto" src="'.$registro['nomImagen'].'"> </div> <div id="divInfProduc"> <form action="../control/AccionEditar.php" method="POST" enctype="multipart/form-data" id="infEditada" > <label id="lblNombre">Nombre del producto: </label> <input type="text" id="txtNombre" name="txtNombre" value="'.$registro['nombre'].'"> <label id="lblPresio">Presio del producto: </label> <input type="text" id="txtPrecio" name="txtPrecio" value="'.$registro['precio'].'"> <label id="lblCantidadProducto">Cantidad en existencia: </label> <input type="text" id="txtCantidad" name="txtCantidad" value="'.$registro['cantidad'].'"> <input type="text" id="inpId" name="inpId" style="visibility: hidden" value="'.$registro['idProducto'].'" > <SELECT id="tipoProducto" name="tipoProducto" class="btn"> <OPTION VALUE="'.$registro['idTipo'].'">'.$registro['tipo'].'</OPTION> ';
-					}
-			    ?>
-			    <OPTION VALUE="">-- Seleccione el tipo del Producto --</OPTION> 
-					   <?php
-					   		$conn = new Control();
-					   		$tipos = $conn->tipoProductos();
+                        }
+                    ?>
+                    <OPTION VALUE="">-- Seleccione el tipo del Producto --</OPTION>
+                           <?php
+                                $conn = new Control();
+                                $tipos = $conn->tipoProductos();
 
-					   		foreach($tipos as $indice => $registro){
-		            			echo "<option value=".$registro['idTipoProducto'].">".$registro['tipo']."</option>";
-		        			}
-					   ?>
-				</SELECT>
-				<input type="file" name="archivo"> 
-				<input type="submit" class="btn-danger" id="btnGuardar" name="btnGuardar" value="Guardar edición">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt dolor accusantium error, nulla sed est, voluptatem consequatur iste cumque ut quam ipsa deserunt cupiditate id. Similique repellat tenetur id.</p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique beatae aliquam dignissimos maxime sunt repudiandae consectetur eius dolore tempore aperiam perferendis, magni quod omnis. Possimus voluptatem, hic dicta. Tenetur, amet.
-			</form>
+                                foreach($tipos as $indice => $registro){
+                                    echo "<option value=".$registro['idTipoProducto'].">".$registro['tipo']."</option>";
+                                }
+                           ?>
+                    </SELECT>
+                    <input type="file" name="archivo">
+                    <input type="submit" class="btn-danger" id="btnGuardar" name="btnGuardar" value="Guardar edición">
+			    </form>
+			</div>
 		</div>
 	</div>
 </body>
