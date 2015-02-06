@@ -9,7 +9,7 @@ class Conexion{
     private $bd;
 
     public function _constructor(){
-        $this->Servidor='65.181.124.135';
+        $this->Servidor='http//65.181.124.135';
         $this->User='root';
         $this->Password='dVD70kh93a';
 
