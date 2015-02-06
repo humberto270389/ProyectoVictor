@@ -72,9 +72,6 @@
         </div>
 
     </header>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis maiores est vel aut. Provident sapiente, architecto accusantium repudiandae, nisi et tempora nesciunt at rem quam placeat nemo suscipit fuga sunt.</p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia pariatur possimus iusto amet eveniet porro maiores ducimus dolorem quaerat. Harum voluptates recusandae dicta laudantium pariatur quas a libero dolor repellendus!
-
     <section id="secInicioSesion">
         <div id="divCont">
             <div id="divSesion">
