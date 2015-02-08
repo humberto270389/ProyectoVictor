@@ -11,9 +11,9 @@ class Conexion{
     private $bd;
 
     public function _constructor(){
-        $this->Servidor='65.181.124.135';
+        $this->Servidor='http://65.181.124.135/';
         $this->User='humberto';
-        $this->Password='';
+        $this->Password='humberto12345';
 
     }
 
