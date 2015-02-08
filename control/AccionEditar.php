@@ -17,8 +17,7 @@
  $imagen;
  $tipoProducto;
 
-$conn = new Control();
-$tipos = $conn->productos($id);
+$tipos = $conn->productos($idP);
 
 foreach($tipos as $indice => $registro){
 	$imagen=$registro['nomImagen'];
@@ -30,21 +29,25 @@ foreach($tipos as $indice => $registro){
 
 if($nomP!=$nombreProducto)
 {
+	echo'<script>alert("'.$nombreProducto.'");</script>';
 	/*$conn->editarProducto($idP,"nombre",$nomP);*/
 }
 
 if($precioP!=$precioProducto)
 {
+	echo'<script>alert("'.$precioProducto.'");</script>';
 	/*$conn->editarProducto($idP,"precio",$precioP);*/
 }
 
 if($cantP!=$cantidadProducto)
 {
+	echo'<script>alert("'.$cantidadProducto.'");</script>';
 	/*$conn->editarProducto($idP,"cantidad",$cantP);*/
 }
 
 if($tipP!=$tipoProducto)
 {
+	echo'<script>alert("'.$tipoProducto.'");</script>';
 	/*$conn->editarProducto($idP,"idTipo",$topP);*/
 }
 
