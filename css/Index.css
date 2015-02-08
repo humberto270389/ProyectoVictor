@@ -1,117 +1,202 @@
+html {
+    width: 100%;
+}
 
-html{
+body {
+    background-image: url('../img/fondo.png');
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+header {
+
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+footer {
+    background-image: url('../img/piedepag.png');
+    text-align: center;
+    width: 100%;
+}
+/* Estilos parael pie de pagina */
+
+#page-wrap {
     width: 100%;
     min-height: 100%;
-    background:#000000
 }
-header{
-    height: 25%;
+
+#page-wrap:after {
     width: 100%;
-    background:#000000
+    height: 150px;
+    display: block;
+    clear: both;
 }
 
-#divImageLogo{
-    width:50%;
-    height:100%;
-    margin: 0 auto;
-    background:#000000
-
-}
-
-body{
-    background:#000000;
+#footer {
+    margin-top: 3em;
+    padding-top: 2em;
     width: 100%;
-    height: 100%
+    height: 150px;
+}
+/* aqui termina lo del pie de pagina */
+
+#imgLogoMTB {
+    width: 22%;
 }
 
-#imgLogoMTB{
-    width:30%;
-    height:10%;
-    margin: 0 auto
-}
+#secInicioSesion {
+    /* Caja principal*/
 
-#secInicioSesion{
+    text-align: center;
+    margin: 0.5em auto;
     width: 100%;
-    height: 100%;
-    text-align: inherit;
-    background:#000000
 }
 
-#divCont{
-    width: 100%;
-    height: 100%;
-}
+#divSesion {
+    /* Caja del form */
 
-#divSesion{
-    width: 40%;
-    margin-left:10%;
     display: inline-block;
-    /*overflow-y: scroll;*/
-}
-
-#divImgChava{
+    vertical-align: top;
+    text-align: center;
     width: 40%;
-    display: inline-block;
 }
 
-#imgChica{
+#divImgChava {
+    /* Caja de la imagen */
+
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+#imgChica {
     width: 100%;
     height: 100%;
+    margin-left: 3em;
 }
 
-.MargCentro{
+.MargCentro {
     width: 45%;
+    height: 40px;
     margin: 0.5em auto;
 }
 
-#btnIniciar{
+#btnIniciar {
     width: 91%;
+    height: 55px;
 }
 
-#parrafoCerrarSesion{
-    text-align: left;
+#parrafoCerrarSesion {
+    color: white;
+    padding: 1em;
+    text-align: justify;
 }
 
-footer{
-    text-align: center;
-    width: 100%;
-    background:#696969;
-
+#parrafoMensaje {
+    color: white;
+    padding: 1em;
+    text-align: justify;
 }
 
-
-
-#divFacebook{
-
-    height: 100%;
+#divFacebook {
     display: inline-block;
     text-align: center;
+    height: 100%;
 }
-#linkFacebook{
-        display:block;
-        width:4vw;
-        height:4vw;
-        text-indent:-9999px;
+
+#linkFacebook {
+    display: block;
+    width: 4vw;
+    height: 4vw;
     display: inline-block;
     background: url("../img/facebook.ico") 0 0 no-repeat;
     background-size: 100% 100%;
-    vertical-align: middle;
 }
 
-.divFooter{
-    width: 40%;
-    display: inline-block;
-    text-align: center;
-}
-
-.elementoDivFacebook{
-
-}
-
-#texto{
+#texto {
     margin: 0.5em auto;
     text-align: center;
 }
-#ejm{
+
+#ejm {
     color: white;
+}
+
+.divFooter {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+/*Medias */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+      #divSesion {
+        /* Caja del form */
+
+        display: block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+    }
+
+    #divImgChava {
+        /* Caja de la imagen */
+
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+    #imgChica {
+        width: 100%;
+        height: 100%;
+        margin: 1.3em auto;
+
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    #divSesion {
+        /* Caja del form */
+
+        display: block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+    }
+
+    #divImgChava {
+        /* Caja de la imagen */
+
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+    #imgChica {
+        width: 100%;
+        height: 100%;
+        margin: .3em auto;
+
+    }
+
 }
