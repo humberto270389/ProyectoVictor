@@ -31,7 +31,7 @@ if($nomP!=$nombreProducto)
 {
 	echo'<script>alert("'.$nombreProducto.'");</script>';
 	/*$conn->editarProducto($idP,"nombre",$nomP);*/
-    /*humberto*/
+    /*humbertoasfd*/
 }
 
 if($precioP!=$precioProducto)
