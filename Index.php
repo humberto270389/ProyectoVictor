@@ -37,7 +37,7 @@
                     url: url,
                     data: {},
                     success: function (data) {
-                        $('#divCont').html(data);
+                        $('#secInicioSesion').html(data);
                     }
                 });
             });
@@ -105,3 +105,4 @@
 </body>
 
 </html>
+
