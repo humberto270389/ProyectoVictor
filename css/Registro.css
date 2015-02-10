@@ -8,11 +8,12 @@ h2 {
     color: white;
 }
 
-#Contenedor{
+#formulario{
     border: thin solid white;
+    margin: .5em auto !important;
     width: 100%;
-
 }
 #formDatos{
-    width: 50%;
+    width: 30%;
+    text-align: center;
 }

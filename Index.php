@@ -4,8 +4,9 @@
 <head>
     <title>MTB - SexShop</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/Index.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="css/Registro.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="JS/jquery-1.11.2.min.js"></script>
     <script type="text/javascript">
         var validar = function () {

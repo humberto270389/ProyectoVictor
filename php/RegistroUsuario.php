@@ -69,11 +69,7 @@
                     document.getElementById("confirmPass").focus();
                     enviar = false;
                 }
-
             }
-
-
-
         }
 
         $(function () {
@@ -93,37 +89,33 @@
                         }
 
                     });
-
                 }
-
             });
 
         });
     </script>
-
 </head>
 <body>
-    <header>
+
         <div id="respuesta">
-            <h2>Registro</h2>
         </div>
-    </header>
-    <div id="Contenedor">
+
+    <div id="formulario">
         <form id="formDatos" >
             <input type=="text" class="MargCentro form-control" id="nombre" name="nombre" placeholder="Nombre">
-            <br>
+
             <input type="text" class="MargCentro form-control" id="ap" name="ap" placeholder="Apellido Paterno">
-            <br>
+
             <input type="text" class="MargCentro form-control" id="am" name="am" placeholder="Apellido Materno">
-            <br>
+
             <input type="text" class="MargCentro form-control" id="usuario" name="usuario" placeholder="Nombre de usuario">
-            <br>
+
             <input type="password" class="MargCentro form-control" id="pass" name="pass" placeholder="Contraseña">
-            <br>
+
             <input type="password" class="MargCentro form-control" id="confirmPass" name="confirmPass" placeholder="Confirmar contraseña">
-            <br>
+
             <input type="text" class="MargCentro form-control" id="correo" name="correo" placeholder="Correo">
-            <br>
+
             <input type="button" id="btnCrear" class="MargCentro form-control btn btn-danger" name="btnCrear" value="Crear cuenta">
             <br>
         </form>
