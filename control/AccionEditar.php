@@ -29,38 +29,43 @@ foreach($tipos as $indice => $registro){
 
 if($nomP!=$nombreProducto)
 {
-	echo'<script>alert("'.$nombreProducto.'");</script>';
-	/*$conn->editarProducto($idP,"nombre",$nomP);*/
-    /*humberto*/
+	/*echo'<script>alert("'.$nombreProducto.'");</script>';*/
+	$conn->editarProducto($idP,"nombre",$nomP);
+    $edicionHecha=true;
+
 }
 
 if($precioP!=$precioProducto)
 {
-	echo'<script>alert("'.$precioProducto.'");</script>';
-	/*$conn->editarProducto($idP,"precio",$precioP);*/
+	/*echo'<script>alert("'.$precioProducto.'");</script>';*/
+	$conn->editarProducto($idP,"precio",$precioP);
+    $edicionHecha=true;
 }
 
 if($cantP!=$cantidadProducto)
 {
-	echo'<script>alert("'.$cantidadProducto.'");</script>';
-	/*$conn->editarProducto($idP,"cantidad",$cantP);*/
+	/*echo'<script>alert("'.$cantidadProducto.'");</script>';*/
+	$conn->editarProducto($idP,"cantidad",$cantP);
+    $edicionHecha=true;
 }
 
 if($tipP!=$tipoProducto)
 {
-	echo'<script>alert("'.$tipoProducto.'");</script>';
-	/*$conn->editarProducto($idP,"idTipo",$topP);*/
+	/*echo'<script>alert("'.$tipP.'");</script>';*/
+	$conn->editarProducto($idP,"idTipo",$tipP);
+    $edicionHecha=true;
 }
 
-if($nomImgPn!="")
+if($nomImgP!="")
 {
-	$nomImgPn=("../img/ImgBD/".$nomImgPn);
+	$nomImgP=("../img/ImgBD/".$nomImgP);
 	if($nomImgP!=$imagen)
 	{ 
-
-		if(move_uploaded_file($_FILES['archivo']['tmp_name'], $nomImgPn))
+        /*echo'<script>alert("'.$nomImgP.'        '.$imagen.'");</script>';*/
+		if(move_uploaded_file($_FILES['archivo']['tmp_name'], $nomImgP))
 			{ 
-				/*$conn->editarProducto($idP,"nomImagen",$nomImgPn);*/
+				$conn->editarProducto($idP,"nomImagen",$nomImgP);
+                $edicionHecha=true;
 		} else{
 				
 		}
@@ -68,7 +73,7 @@ if($nomImgPn!="")
 
 }
 
-/*if($edicionHecha)
+if($edicionHecha)
 {
 	?>
 		<script type="text/javascript">
@@ -86,6 +91,6 @@ else
 	</script>
 <?php
 }
-*/
+
 
 ?>
