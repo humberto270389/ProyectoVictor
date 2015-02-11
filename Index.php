@@ -76,7 +76,7 @@
            </div><!--
 
            --><div class="par" id="facebook-div">
-                Visitanos <br>
+                Visítanos <br>
                 <a href="https://www.facebook.com/MiscelaneaTodoBarato" target="_blank"><img src="img/fb.png" alt="facebook"></a>
                 <a href="https://www.facebook.com/MiscelaneaTodoBarato" target="_blank"><img src="img/tw.png" alt="facebook"></a>
                 <a href="https://www.facebook.com/MiscelaneaTodoBarato" target="_blank"><img src="img/gp.png" alt="facebook"></a>
