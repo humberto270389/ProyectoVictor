@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8" />
     <title>Registro de usuario - MTB</title>
-    <link rel="stylesheet" type="text/css" href="../css/Registro.css" />
     <script>
         var validar = function () {
             var enviar = false;
@@ -92,31 +91,29 @@
                 }
             });
 
+            $('#btnCancelar').click(function(){
+                window.location="index.php";
+            });
+
         });
     </script>
 </head>
 <body>
-
         <div id="respuesta">
         </div>
 
     <div id="formulario">
         <form id="formDatos" >
-            <input type=="text" class="MargCentro form-control" id="nombre" name="nombre" placeholder="Nombre">
-
+            <input type="text" class="MargCentro form-control" id="nombre" name="nombre" placeholder="Nombre">
             <input type="text" class="MargCentro form-control" id="ap" name="ap" placeholder="Apellido Paterno">
-
             <input type="text" class="MargCentro form-control" id="am" name="am" placeholder="Apellido Materno">
-
             <input type="text" class="MargCentro form-control" id="usuario" name="usuario" placeholder="Nombre de usuario">
-
             <input type="password" class="MargCentro form-control" id="pass" name="pass" placeholder="Contraseña">
-
             <input type="password" class="MargCentro form-control" id="confirmPass" name="confirmPass" placeholder="Confirmar contraseña">
-
             <input type="text" class="MargCentro form-control" id="correo" name="correo" placeholder="Correo">
+            <input type="button" id="btnCrear" class="MargCentro form-control btn btn-danger" name="btnCrear" value="Crear">
+            <input type="button" id="btnCancelar" class="MargCentro form-control btn btn-danger" name="btnCrear" value="Cancelar">
 
-            <input type="button" id="btnCrear" class="MargCentro form-control btn btn-danger" name="btnCrear" value="Crear cuenta">
             <br>
         </form>
     </div>

@@ -12,6 +12,7 @@ body {
 header {
     margin: 0.5em auto;
     text-align: center;
+    width: 100%;
 }
 
 footer {
@@ -19,8 +20,16 @@ footer {
     text-align: center;
     width: 100%;
 }
-/* Estilos parael pie de pagina */
-
+/* Estilos para el pie de pagina */
+.par{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+#facebook-div{
+    color: white;
+    text-align: center;
+}
 #page-wrap {
     width: 100%;
     min-height: 100%;
@@ -42,12 +51,12 @@ footer {
 /* aqui termina lo del pie de pagina */
 
 #imgLogoMTB {
-    width: 22%;
+    width: 65%;
+
 }
 
 #secInicioSesion {
     /* Caja principal*/
-
     text-align: center;
     margin: 0.5em auto;
     width: 100%;
@@ -64,7 +73,6 @@ footer {
 
 #divImgChava {
     /* Caja de la imagen */
-
     display: inline-block;
     vertical-align: top;
     width: 40%;
@@ -105,24 +113,6 @@ footer {
     height: 100%;
 }
 
-#linkFacebook {
-    display: block;
-    width: 4vw;
-    height: 4vw;
-    display: inline-block;
-    background: url("../img/facebook.ico") 0 0 no-repeat;
-    background-size: 100% 100%;
-}
-
-#texto {
-    margin: 0.5em auto;
-    text-align: center;
-}
-
-#ejm {
-    color: white;
-}
-
 .divFooter {
     width: 40%;
     display: inline-block;
@@ -142,6 +132,20 @@ footer {
 /* Landscape phones and portrait tablets */
 
 @media (max-width: 767px) {
+    header {
+        margin: 0.5em auto;
+        text-align: center;
+        width: 100%;
+    }
+    .par{
+        display: block;
+        width: 100%;
+        vertical-align: top;
+    }
+    #imgLogoMTB {
+        width: 45%;
+
+    }
     #divSesion {
         /* Caja del form */
 
@@ -166,6 +170,16 @@ footer {
 /* Landscape phones and smaller */
 
 @media (max-width: 480px) {
+    header {
+        margin: 0.5em auto;
+        text-align: center;
+        width: 100%;
+    }
+    .par{
+        display: block;
+        width:    100%;
+        vertical-align: top;
+    }
     #divSesion {
         /* Caja del form */
 
