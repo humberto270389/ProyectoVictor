@@ -19,7 +19,7 @@
                 ?>
                 <script>
                         alert("El usuario no esta registrado.");
-                        window.location="http://localhost/ProyectoVictor/index.php";
+                        window.location="index.php";
 
                 </script>
                 <?php
@@ -37,29 +37,29 @@
                         if(1 ==$du['tipoUs'])
                         {
                         	?>
-	                        <script>
-	                                window.location="http://localhost/ProyectoVictor/php/administrador.php";
-	                        </script>
-	                        <?php
+                            <script>
+                                    window.location="php/administrador.php";
+                            </script>
+                            <?php
 
                         }
                         else
                         {
                         	?>
-	                        <script>
-	                                window.location="http://localhost/ProyectoVictor/php/catalogo.php";
-	                        </script>
-	                        <?php
+                            <script>
+                                    window.location="php/catalogo.php";
+                            </script>
+                            <?php
                         }
 
-                       
+
 
                 }else{
 
                         ?>
                         <script>
                                 alert("Datos incorrectos.");
-                                window.location="http://localhost/ProyectoVictor/index.php";
+                                window.location="index.php";
                         </script>
                         <?php
 

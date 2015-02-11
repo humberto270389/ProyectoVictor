@@ -1,33 +1,55 @@
-html{
-	width: 100%;
-	background:#000000
+body {
+    background-image: url('../img/fondo.png');
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
-body{
-	width: 100%;
-	background:#000000
+h2 {
+    color: white;
 }
 
-
-#Contenedor(){
-	margin: 0 auto
+#formulario{
+    width: 100%;
 }
-
-h3{
-	width: 20%;
-	text-align: center;
-	margin: 0 auto
+#formDatos{
+    width: 30%;
+    margin: 0.5em auto;
+    text-align: center;
 }
-
-form{
-	width: 50%;
-	margin: 0 auto;
-	border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border: 2px  double #ff002b;
+#btnCrear, #btnCancelar{
+    width: 100px;
 }
+/*Medias */
+/* Large desktops and laptops */
 
-form input{
-	margin: 0 auto;
+@media (min-width: 1200px) {}
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     #formDatos{
+        width: 50%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+}
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    #formDatos{
+        width: 50%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+}
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+     #formDatos{
+        width: 90%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
 }
