@@ -4,23 +4,23 @@ require 'Conexion.php';
 
 class Control extends Conexion{
 
-	public function _constructor(){
-		parent::_constructor();
-	}
+    public function _constructor(){
+        parent::_constructor();
+    }
 
-	public function RegistrarUsuario($nombre, $ap, $am, $nomUs, $pass, $correo){
+    public function RegistrarUsuario($nombre, $ap, $am, $nomUs, $pass, $correo){
 
-		$this->abrirConexion();
-		$this->seleccionarBD('MTB');
-		$this->setQuery("INSERT INTO usuario (nombre, ap, am, nomUsuario, contrasena, correo, tipoUs) VALUES('".$nombre."','".$ap."','".$am."','".$nomUs."','".$pass."','".$correo."',0)");
-		$this->cerrarConexion();
-	}
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+        $this->setQuery("INSERT INTO usuario (nombre, ap, am, nomUsuario, contrasena, correo, tipoUs) VALUES('".$nombre."','".$ap."','".$am."','".$nomUs."','".$pass."','".$correo."',0)");
+        $this->cerrarConexion();
+    }
 
-	 public function Verificar_Existencia_Usuario($correo) {
+     public function Verificar_Existencia_Usuario($correo) {
 
         $resultado = Array();
         $this->abrirConexion();
-        $this->seleccionarBD('MTB');
+        $this->seleccionarBD('mtb');
         $rSQL = $this->getQuery('SELECT * FROM usuario WHERE correo = "'.$correo.'" ');
         if (mysql_num_rows($rSQL) > 0) {
             while ($fila = mysql_fetch_assoc($rSQL)) {
@@ -114,7 +114,7 @@ class Control extends Conexion{
         {
             $this->setQuery("UPDATE producto SET ".$campo."=".$valor." where idProducto=".$id);
         }
-        
+
     }
 
 }
