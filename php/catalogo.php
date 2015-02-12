@@ -34,16 +34,17 @@
 </head>
 <body>
     <header>
-        <div id="divImageLogo">
-            <img id="imgLogoMTB" class="img-responsive" src="../img/logo1.png" >
-        </div>
-        <div id="divCerrarSesion">
-            <nav>
-                <ul class="menu">
-                    <li><a href="../control/CerrarSesion.php">Cerrar sesión (<?php echo $_SESSION['NomUser']; ?>)</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="par">
+
+       </div><!--
+       --><div class="par">
+            <img id="imgLogoMTB" src="../img/logo1.png" >
+
+       </div><!--
+       --><div class="par">
+            <li><a href="../control/CerrarSesion.php">Cerrar sesión (<?php echo $_SESSION['NomUser']; ?>)</a></li>
+
+       </div>
     </header>
 
     <section id="secCont">
