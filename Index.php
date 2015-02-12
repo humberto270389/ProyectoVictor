@@ -84,8 +84,8 @@
         </header>
         <section id="secInicioSesion">
             <div id="divSesion">
-                <form id="formSesion" class="form-grup">
-                    <input type="text" id="usuario" class="MargCentro" name="usuario" placeholder="Nombre de usuario">
+                <form id="formSesion">
+                    <input type="text" id="usuario" class="MargCentro" name="usuario" placeholder="Usuario">
                     <input type="password" id="pass" class="MargCentro" name="pass" placeholder="Contraseña">
                     <input type="button" id="btnIniciar" class="btn-danger btn btn-sm" name="btnIniciar" value="Ingresar">
                 </form>

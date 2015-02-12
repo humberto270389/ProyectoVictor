@@ -20,6 +20,9 @@ footer {
     text-align: center;
     width: 100%;
 }
+form{
+    padding: 0 0 1em 0;
+}
 /* Estilos para el pie de pagina */
 .par{
     display: inline-block;
@@ -85,9 +88,9 @@ footer {
 }
 
 .MargCentro {
-    width: 45%;
-    height: 40px;
     margin: 0.5em auto;
+    height: 40px;
+    width: 45%;
 }
 
 #btnIniciar {
@@ -111,6 +114,9 @@ footer {
     display: inline-block;
     text-align: center;
     height: 100%;
+}
+#RegistrarUsuario{
+
 }
 
 .divFooter {
