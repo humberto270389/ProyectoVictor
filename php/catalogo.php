@@ -6,7 +6,6 @@
 
     	require '../control/Control.php';
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -46,24 +45,20 @@
 
        </div>
     </header>
+    <section>
+        <div id="menu">
+               <?php
+                    $conn = new Control();
+                    $tipos = $conn->tipoProductos();
+                    foreach($tipos as $indice => $registro){
+                        echo '<input type="button" class="btn btn-danger btnLi" value="'.$registro['tipo'].'" name="'.$registro['idTipoProducto'].'" id="'.$registro['tipo'].'" onclick="cargar('.$registro['tipo'].')">';
+                    }
+               ?>
 
-    <section id="secCont">
-        <div id="divCont">
-            <div id="divMenu">
-                <nav>
-                       <?php
-                       		$conn = new Control();
-                       		$tipos = $conn->tipoProductos();
+        </div><!--
+        --><div id="divCatalogo">
+           <!--Aqui estará el contenido que regrese la llamada ajax-->
 
-                       		foreach($tipos as $indice => $registro){
-                    			echo '<li><input type="button" class="btn-danger btnLi" value="'.$registro['tipo'].'" name="'.$registro['idTipoProducto'].'" id="'.$registro['tipo'].'" onclick="cargar('.$registro['tipo'].')"></li>';
-                    		}
-                       ?>
-                </nav>
-            </div>
-            <div id="divCatalogo">
-
-            </div>
         </div>
     </section>
 
