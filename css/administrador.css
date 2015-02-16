@@ -15,7 +15,27 @@ header{
     width: 100%;
     text-align: center;
 }
+section{
+    width: 100%;
+}
+#AdivMenu{
+    border: thin solid white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 12%;
 
+}
+
+#AdivFuncion{
+    border: thin solid white;
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+
+}
+
+/*Aqui lo del encabezado falta modificar*/
 #AdivImageLogo{
     width:50%;
     height:100%;
@@ -32,59 +52,103 @@ header{
 }
 
 #AdivCerrarSesion{
-
     display: inline-block;
     vertical-align: top;
     padding-left: 20%;
 
 }
-
-#AsecCont{
-    width: 100%;
-    min-height: 100%;
-}
-
-#AdivCont{
-    width: 100%;
-    min-height: 100%;
-    position: relative;
-}
-
-/*Inicio de la configuracion del divMenu y sus elementos*/
-#AdivMenu{
-
-    display: inline-block;
-    min-height: 100%;
-    width: 10%;
-    margin-left: 0.5%;
-    position:fixed;
-}
-
-#AdivMenu ul{
-    width: 100%;
-}
-
-#AdivMenu li{
+/*Termina lo del encabezado*/
+.bton{
+    margin: 0.5em auto;
     width: 90%;
-    display: inline-block;
+
 }
 
-#AdivMenu li input{
-    width: 100%;
-    font-size: 13px;
-}
-/*Fin de la configuracion del divMenu y sus elementos*/
+/*Medias */
+/* Large desktops and laptops */
 
-#AdivFuncion{
-    display: inline-block;
-    width: 89%;
-    padding-left: 0.5%;
-    min-height: 100%;
-    margin-left: 10%;
-    border-radius: 8px 8px 8px 8px;
-    -moz-border-radius: 8px 8px 8px 8px;
-    -webkit-border-radius: 8px 8px 8px 8px;
-    border: 5px double #ff002b;
-    /*overflow-y: scroll;*/
+@media (min-width: 1200px) {
+
 }
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #AdivMenu{
+        border: thin solid white;
+        text-align: center;
+        vertical-align: top;
+        width: 20%;
+
+    }
+
+    #AdivFuncion{
+        border: thin solid white;
+        vertical-align: top;
+        width: 80%;
+
+    }
+
+}
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #AdivMenu{
+        border: thin solid white;
+        text-align: center;
+        vertical-align: top;
+        width: 20%;
+
+    }
+
+    #AdivFuncion{
+        border: thin solid white;
+        vertical-align: top;
+        width: 80%;
+
+    }
+
+
+}
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+   #AdivMenu{
+        border: thin solid white;
+        text-align: center;
+        vertical-align: top;
+        width: 30%;
+
+    }
+
+    #AdivFuncion{
+        border: thin solid white;
+        vertical-align: top;
+        width: 70%;
+
+    }
+
+
+}
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+   #AdivMenu{
+        border: thin solid white;
+        display: block;
+        text-align: center;
+        vertical-align: top;
+        width: 100%;
+
+    }
+
+    #AdivFuncion{
+        border: thin solid white;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+
+    }
+
+}
+
 
