@@ -1,0 +1,209 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url('../img/fondo.png');
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+header {
+    margin: 0.5em auto;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    background-image: url('../img/piedepag.png');
+    text-align: center;
+    width: 100%;
+}
+form{
+    padding: 0 0 1em 0;
+}
+/* Estilos para el pie de pagina */
+.par{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+#facebook-div{
+    color: white;
+    text-align: center;
+}
+#page-wrap {
+    width: 100%;
+    min-height: 100%;
+}
+
+#page-wrap:after {
+    width: 100%;
+    height: 150px;
+    display: block;
+    clear: both;
+}
+
+#footer {
+    margin-top: 3em;
+    padding-top: 2em;
+    width: 100%;
+    height: 150px;
+}
+/* aqui termina lo del pie de pagina */
+
+#imgLogoMTB {
+    width: 65%;
+
+}
+
+#secInicioSesion {
+    /* Caja principal*/
+    text-align: center;
+    margin: 0.5em auto;
+    width: 100%;
+}
+
+#divSesion {
+    /* Caja del form */
+
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 40%;
+}
+
+#divImgChava {
+    /* Caja de la imagen */
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+#imgChica {
+    width: 100%;
+    height: 100%;
+    margin-left: 3em;
+}
+
+.MargCentro {
+    margin: 0.5em auto;
+    height: 40px;
+    width: 45%;
+}
+
+#btnIniciar {
+    width: 91%;
+    height: 55px;
+}
+
+#parrafoCerrarSesion {
+    color: white;
+    padding: 1em;
+    text-align: justify;
+}
+
+#parrafoMensaje {
+    color: white;
+    padding: 1.5em;
+    text-align: justify;
+}
+
+#divFacebook {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+}
+#RegistrarUsuario{
+
+}
+
+.divFooter {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+/*Medias */
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {}
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    header {
+        margin: 0.5em auto;
+        text-align: center;
+        width: 100%;
+    }
+    .par{
+        display: block;
+        width: 100%;
+        vertical-align: top;
+    }
+    #imgLogoMTB {
+        width: 45%;
+
+    }
+    #divSesion {
+        /* Caja del form */
+
+        display: block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+    }
+    #divImgChava {
+        /* Caja de la imagen */
+
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+    #imgChica {
+        width: 100%;
+        height: 100%;
+        margin: 1.3em auto;
+    }
+}
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+    header {
+        margin: 0.5em auto;
+        text-align: center;
+        width: 100%;
+    }
+    .par{
+        display: block;
+        width:    100%;
+        vertical-align: top;
+    }
+    #divSesion {
+        /* Caja del form */
+
+        display: block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+    }
+    #divImgChava {
+        /* Caja de la imagen */
+
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+    #imgChica {
+        width: 100%;
+        height: 100%;
+        margin: .3em auto;
+    }
+}
