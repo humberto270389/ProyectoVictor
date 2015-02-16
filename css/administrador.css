@@ -19,7 +19,6 @@ section{
     width: 100%;
 }
 #AdivMenu{
-    border: thin solid white;
     display: inline-block;
     text-align: center;
     vertical-align: top;
@@ -28,7 +27,6 @@ section{
 }
 
 #AdivFuncion{
-    border: thin solid white;
     display: inline-block;
     vertical-align: top;
     width: 88%;
@@ -74,7 +72,6 @@ section{
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #AdivMenu{
-        border: thin solid white;
         text-align: center;
         vertical-align: top;
         width: 20%;
@@ -82,7 +79,6 @@ section{
     }
 
     #AdivFuncion{
-        border: thin solid white;
         vertical-align: top;
         width: 80%;
 
@@ -93,7 +89,6 @@ section{
 
 @media (min-width: 768px) and (max-width: 991px) {
     #AdivMenu{
-        border: thin solid white;
         text-align: center;
         vertical-align: top;
         width: 20%;
@@ -101,7 +96,6 @@ section{
     }
 
     #AdivFuncion{
-        border: thin solid white;
         vertical-align: top;
         width: 80%;
 
@@ -113,7 +107,6 @@ section{
 
 @media (max-width: 767px) {
    #AdivMenu{
-        border: thin solid white;
         text-align: center;
         vertical-align: top;
         width: 30%;
@@ -121,7 +114,6 @@ section{
     }
 
     #AdivFuncion{
-        border: thin solid white;
         vertical-align: top;
         width: 70%;
 
@@ -133,7 +125,6 @@ section{
 
 @media (max-width: 480px) {
    #AdivMenu{
-        border: thin solid white;
         display: block;
         text-align: center;
         vertical-align: top;
@@ -142,7 +133,6 @@ section{
     }
 
     #AdivFuncion{
-        border: thin solid white;
         display: block;
         vertical-align: top;
         width: 100%;
