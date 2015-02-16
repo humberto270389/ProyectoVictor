@@ -74,36 +74,18 @@
         </div>
     </header>
 
-    <section id="AsecCont">
-        <div id="AdivCont">
-            <div id="AdivMenu">
-                <nav>
+    <section>
+        <div id="AdivMenu">
+            <input type="button" class="btn-danger bton btn" id="AbtnCliente" name="AbtnCliente" value="Modo cliente">
+            <input type="button" class="btn-danger bton btn" id="AbtnAddProduc" name="AbtnAddProduc" value="Agregar producto">
+            <input type="button" class="btn-danger bton btn" id="AbtnEditProduc" name="AbtnEditProduc" value="Editar producto">
+            <input type="button" class="btn-danger bton btn" id="AbtnElimProduc" name="AbtnElimProduc" value="Eliminar producto">
+            <input type="button" class="btn-danger bton btn" id="AbtnVerClientes" name="AbtnVerClientes" value="Ver clientes">
+        </div><!--
+        --><div id="AdivFuncion">
 
-                        <li><input type="button" class="btn-danger" id="AbtnCliente" name="AbtnCliente" value="Modo cliente"></li>
-                        <li><input type="button" class="btn-danger" id="AbtnAddProduc" name="AbtnAddProduc" value="Agregar producto"></li>
-                        <li><input type="button" class="btn-danger" id="AbtnEditProduc" name="AbtnEditProduc" value="Editar producto"></li>
-                        <li><input type="button" class="btn-danger" id="AbtnElimProduc" name="AbtnElimProduc" value="Eliminar producto"></li>
-                        <li><input type="button" class="btn-danger" id="AbtnVerClientes" name="AbtnVerClientes" value="Ver clientes"></li>
-
-                </nav>
-            </div>
-            <div id="AdivFuncion">
-
-            </div>
         </div>
     </section>
-
-    <!--footer>
-        <div id="AdivMTB" class="AdivFooter">
-            <h5>Miscelanea Todo Barato </h5>
-            <h5>S.A. de C.V.</h5>
-        </div>
-        <div id="AdivFacebook"  class="AdivFooter">
-            <h5 class="AelementoDivFacebook">Visita M.T.B. en facebook</h5>
-            <a id="AlinkFacebook" href="https://www.facebook.com/MiscelaneaTodoBarato?fref=ts"></a>
-        </div>
-    <br>
-    </footer-->
 
 </body>
 </html>
