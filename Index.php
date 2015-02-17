@@ -59,8 +59,6 @@
                 }
 
             });
-
-
         });
     </script>
 
@@ -101,19 +99,11 @@
                 <img src="img/girl.png" id="imgChica">
             </div>
         </section>
-    </div>
-    <!--footer id="footer">
-        <div  class="divFooter">
-            <h5>Miscelanea Todo Barato </h5>
-            <h5>S.A. de C.V.</h5>
-        </div><!--
-        --><!--div id="divFacebook" class="divFooter">
-            <h5 class="elementoDivFacebook">Visita M.T.B. en facebook</h5>
-            <a href="https://www.facebook.com/MiscelaneaTodoBarato" target="_blank"><img src="img/face.png" alt="facebook"></a>
-        </div>
-        <br>
-    </footer-->
+        <!--Comentario-->
+        <!--Comentario-->
 
+
+    </div>
 </body>
 
 </html>
