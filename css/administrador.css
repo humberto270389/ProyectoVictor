@@ -1,0 +1,144 @@
+html{
+    width: 100%;
+    min-height: 100%;
+}
+
+
+body{
+    background-image: url('../img/fondo.png');
+    width: 100%;
+    min-height: 100%
+}
+
+header{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+}
+section{
+    width: 100%;
+}
+#AdivMenu{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 12%;
+
+}
+
+#AdivFuncion{
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+
+}
+
+/*Aqui lo del encabezado falta modificar*/
+#AdivImageLogo{
+    width:50%;
+    height:100%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 35%;
+}
+
+#AimgLogoMTB{
+    width:70%;
+    height:3%;
+    display: inline-block;
+    margin: 0 auto
+}
+
+#AdivCerrarSesion{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20%;
+
+}
+/*Termina lo del encabezado*/
+.bton{
+    margin: 0.5em auto;
+    width: 90%;
+
+}
+
+/*Medias */
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {
+
+}
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #AdivMenu{
+        text-align: center;
+        vertical-align: top;
+        width: 20%;
+
+    }
+
+    #AdivFuncion{
+        vertical-align: top;
+        width: 80%;
+
+    }
+
+}
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #AdivMenu{
+        text-align: center;
+        vertical-align: top;
+        width: 20%;
+
+    }
+
+    #AdivFuncion{
+        vertical-align: top;
+        width: 80%;
+
+    }
+
+
+}
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+   #AdivMenu{
+        text-align: center;
+        vertical-align: top;
+        width: 30%;
+
+    }
+
+    #AdivFuncion{
+        vertical-align: top;
+        width: 70%;
+
+    }
+
+
+}
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+   #AdivMenu{
+        display: block;
+        text-align: center;
+        vertical-align: top;
+        width: 100%;
+
+    }
+
+    #AdivFuncion{
+        display: block;
+        vertical-align: top;
+        width: 100%;
+
+    }
+
+}
+
+

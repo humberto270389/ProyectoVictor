@@ -1,0 +1,58 @@
+body {
+    background-image: url('../img/fondo.png');
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    color: white;
+}
+
+#formulario{
+    width: 100%;
+}
+#formDatos{
+    width: 30%;
+    margin: 0.5em auto;
+    text-align: center;
+}
+#btnCrear, #btnCancelar{
+    width: 49%;
+}
+/*Medias */
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {}
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     #formDatos{
+        width: 50%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+}
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    #formDatos{
+        width: 50%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+}
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+     #formDatos{
+        width: 90%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+    #btnCrear, #btnCancelar{
+        width: 100%;
+    }
+}
