@@ -11,7 +11,7 @@ class Conexion{
     public function _constructor(){
         $this->Servidor='localhost';
         $this->User='root';
-        $this->Password='';
+        $this->Password='root';
 
     }
 
