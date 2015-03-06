@@ -2,12 +2,18 @@
 # https://help.github.com/articles/ignoring-files
 <<<<<<< HEAD
 # Example .gitignore files: https://github.com/github/gitignore
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 # Example .gitignore files: https://github.com/github/gitignore
+=======
+>>>>>>> RemoteVic/master
 /bower_components/
 /node_modules/
 =======
 # Example .gitignore files: https://github.com/github/gitignore
 >>>>>>> ProjetBeto/master
+<<<<<<< HEAD
+>>>>>>> RemoteVic/master
+=======
 >>>>>>> RemoteVic/master
