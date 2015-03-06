@@ -29,6 +29,19 @@
                 });
             });
 
+            $('#AbtnAddTipoProducto').click(function(){
+                var url='agregarTipoProducto.php';
+
+                    $.ajax({
+                        type:'POST',
+                        url: url,
+                        data:{},
+                        success: function(data){
+                            $('#AdivFuncion').html(data);
+                        }
+                    });
+            });
+
             $('#AbtnAddProduc').click(function(){
                 var url='agregarProducto.php';
 
@@ -54,6 +67,7 @@
                         }
                     });
             });
+
         });
 
     </script>
