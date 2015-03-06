@@ -75,6 +75,7 @@
     <section>
         <div id="AdivMenu">
             <input type="button" class="btn-danger bton btn" id="AbtnCliente" name="AbtnCliente" value="Modo cliente">
+            <input type="button" class="btn-danger bton btn" id="AbtnAddTipoProducto" name="AbtnAddTipoProducto" value="Agregar tipo producto">
             <input type="button" class="btn-danger bton btn" id="AbtnAddProduc" name="AbtnAddProduc" value="Agregar producto">
             <input type="button" class="btn-danger bton btn" id="AbtnEditProduc" name="AbtnEditProduc" value="Editar producto">
             <input type="button" class="btn-danger bton btn" id="AbtnElimProduc" name="AbtnElimProduc" value="Eliminar producto">
