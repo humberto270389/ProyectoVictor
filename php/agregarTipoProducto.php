@@ -3,6 +3,7 @@
     <header>
         <title></title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/adminTipoProducto.css">
         <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
         <script>
             $(function(){
