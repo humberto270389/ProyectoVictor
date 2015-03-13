@@ -1,0 +1,19 @@
+html{
+    width: 100%;
+    min-height: 100%;
+    background: #000000
+}
+
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}
