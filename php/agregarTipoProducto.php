@@ -26,13 +26,9 @@
             <div id="menuTipoProduc">
                 <nav id="navTipo">
                     <ul>
-                        <input type="button" class="bton btn" id="btnAgregarTipo" value="Agregar tipo de producto">
-                    </ul>
-                    <ul>
-                        <input type="buton" class="bton btn" id="btnEditarTipo" value="Editar tipo de producto">
-                    </ul>
-                    <ul>
-                        <input type="text" class="bton btn" id="btnEliminarTipo" value="Eliminar tipo de producto">
+                        <li><input type="button" class="bton btn" id="btnAgregarTipo" value="Agregar tipo de producto"></li>
+                        <li><input type="buton" class="bton btn" id="btnEditarTipo" value="Editar tipo de producto"></li>
+                        <li><input type="text" class="bton btn" id="btnEliminarTipo" value="Eliminar tipo de producto"></li>
                     </ul>
                 </nav>
             </div>
