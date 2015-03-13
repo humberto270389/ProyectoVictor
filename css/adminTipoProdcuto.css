@@ -19,6 +19,7 @@ nav#navTipo {
 
 nav#navTipo a:hover {
       background-color: #e6002d;
+    text-decoration-color: #000000;
       color: #fff;
 }
 
