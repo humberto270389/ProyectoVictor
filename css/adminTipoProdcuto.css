@@ -4,6 +4,24 @@ html{
     background: #000000
 }
 
+nav#navTipo {
+  background-color: #ff0032;
+  padding: 10px 0; }
+  nav#navTipo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#navTipo li {
+    display: inline-block;
+    border-right: solid 1px #cc0028;
+    padding: 0 5px; }
+
+nav#navTipo a:hover {
+      background-color: #e6002d;
+      color: #fff;
+}
+
 
 /* =Media Queries
 -------------------------------------------------------------- */
@@ -11,7 +29,7 @@ html{
   #nav-trigger {
     display: block; }
 
-  nav#nav-main {
+  nav#navTipo {
     display: none; }
 
   nav#nav-mobile {
