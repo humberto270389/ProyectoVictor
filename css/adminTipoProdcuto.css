@@ -28,6 +28,18 @@ a.link {
     text-decoration: none;
     color: #000000;
 }
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+a:vicited {
+    text-decoration: none;
+    color: #000000;
+}
+a.actived {
+    text-decoration: none;
+    color: #000000;
+}
 
 
 /* =Media Queries
