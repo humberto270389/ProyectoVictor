@@ -17,22 +17,22 @@ nav#navTipo {
     border-right: solid 1px #cc0028;
     padding: 0 5px; }
 
-a.link {
+a:link {
     background-color: #000000;
     text-decoration: underline;
     text-color: #000000;
 }
-a.vicited {
+a:vicited {
     background-color: #000000;
     text-decoration: underline;
     text-color: #000000;
 }
-a.actived {
+a:actived {
     background-color: #000000;
     text-decoration: underline;
     text-color: #000000;
 }
-a.hover{
+a:hover{
     background-color: #000000;
     text-decoration: underline;
     text-color: #000000;
