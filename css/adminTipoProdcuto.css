@@ -25,6 +25,7 @@ nav#navTipo a:hover {
 }
 
 a{
+    text-decoration: none;
     text-decoration-color: #000000;
     color: #000000
 }
