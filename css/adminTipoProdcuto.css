@@ -24,6 +24,11 @@ nav#navTipo a:hover {
       color: #fff;
 }
 
+a, span{
+    text-decoration-color: #000000;
+    color: #000000
+}
+
 
 /* =Media Queries
 -------------------------------------------------------------- */
