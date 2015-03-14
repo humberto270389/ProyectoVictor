@@ -18,15 +18,18 @@ nav#navTipo {
     padding: 0 5px; }
 
 a:link {
-    text-decoration: none;
+    background-color: #000000;
+    text-decoration: underline;
     text-color: #000000;
 }
 a:vicited {
-    text-decoration: none;
+    background-color: #000000;
+    text-decoration: underline;
     text-color: #000000;
 }
 a:actived {
-    text-decoration: none;
+    background-color: #000000;
+    text-decoration: underline;
     text-color: #000000;
 }
 a:hover{
