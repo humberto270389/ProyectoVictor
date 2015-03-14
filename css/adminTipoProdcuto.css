@@ -17,13 +17,6 @@ nav#navTipo {
     border-right: solid 1px #cc0028;
     padding: 0 5px; }
 
-nav#navTipo a:hover {
-      background-color: #e6002d;
-    text-decoration-color: #000000;
-    text-color:#000000;
-      color: #000000;
-}
-
 a:link {
     text-decoration: none;
     text-color: #000000;
