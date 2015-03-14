@@ -29,6 +29,11 @@ a:actived {
     text-decoration: none;
     text-color: #000000;
 }
+a:hover{
+    background-color: #000000;
+    text-decoration: underline;
+    text-color: #000000;
+}
 
 
 /* =Media Queries
