@@ -30,7 +30,7 @@
             });
 
             $('#AbtnAddTipoProducto').click(function(){
-                var url='agregarTipoProducto.php';
+                var url='adminTipoProducto.php';
 
                     $.ajax({
                         type:'POST',
