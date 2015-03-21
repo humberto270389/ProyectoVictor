@@ -17,12 +17,13 @@
                         }
                 });
             });
+        });
         </script>
     </head>
     <body>
         <form id="formAddTipo">
-            <input type="text" hiden="Ingrese el nuevo tipo de producto">
-            <input type="button" value="Agregar" id="btnAgregrTipoForm">
+            <input type="text" class="btn" placeholder="Ingrese el nuevo tipo de producto" id="idTxtTipo">
+            <input type="button" class="btn btn-danger" value="Agregar" id="btnAgregrTipoForm">
         </form>
         <div id="divFun"></div>
     </body>

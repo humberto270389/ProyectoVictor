@@ -1,0 +1,28 @@
+html{
+    width: 100%;
+    min-height: 100%;
+    background: #000000
+}
+
+body{
+    background-image: url('../img/fondo.png');
+    width: 100%;
+    min-height: 100%
+}
+
+#formAddTipo{
+    text-align: center;
+    width: 100%;
+}
+
+#idTxtTipo{
+    width:50%;
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+#btnAgregrTipoForm{
+    width:50%;
+    text-align: center;
+    margin: 0.5em auto;
+}

@@ -19,6 +19,7 @@
                         }
                 });
             });
+        });
         </script>
     </header>
 
@@ -27,7 +28,7 @@
             <div id="menuTipoProduc">
                 <nav id="navTipo">
                     <ul>
-                        <li><a ref="http//:localhost/ProyectoVictor/php/addTipProduc.php" id="btnAgregarTipo" E>Agregar tipo de producto</a></li>
+                        <li><a ref="http//:localhost/ProyectoVictor/php/addTipoProduc.php" id="btnAgregarTipo">Agregar tipo de producto</a></li>
                         <li><a ref="http//:localhost/ProyectoVictor/php/editTipProd.php" id="btnEditarTipo">Editar tipo de producto</a></li>
                         <li><a ref="http//:localhost/ProyectoVictor/php/elimTipProdu.php" id="btnEliminarTipo">Eliminar tipo de producto</a></li>
                     </ul>

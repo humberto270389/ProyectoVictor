@@ -4,6 +4,12 @@ html{
     background: #000000
 }
 
+body{
+    background-image: url('../img/fondo.png');
+    width: 100%;
+    min-height: 100%
+}
+
 nav#navTipo {
   background-color: #ff0032;
   padding: 10px 0; }
@@ -36,6 +42,21 @@ a:hover{
     background-color: #000000;
     text-decoration: underline;
     text-color: #000000;
+}
+
+section{
+    width: 100%;
+}
+
+#divFucntionTipo{
+    width: 95%;
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+    border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 2px  double #ff002b;
 }
 
 
