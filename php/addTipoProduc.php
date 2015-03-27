@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="../css/addTipoProduc.css"></script>
+        <link rel="stylesheet" type="text/css" href="../css/addTipoProduc.css">
         <script>
             $(function(){
                 $('#btnAgregarTipoForm').click(function(){
@@ -22,10 +22,13 @@
         </script>
     </head>
     <body>
-        <form id="formAddTipo">
-            <input type="text" class="btn" placeholder="Ingrese el nuevo tipo de producto" id="idTxtTipo">
-            <input type="button" class="btn btn-danger" value="Agregar" id="btnAgregrTipoForm">
-        </form>
+       <div id="divAddTipo">
+            <form id="formAddTipo">
+                <input type="text" class="btn-sm" placeholder="Ingrese el nuevo tipo de producto" id="idTxtTipo">
+                <input type="button" class="btn btn-danger" value="Agregar" id="btnAgregrTipoForm">
+            </form>
+       </div>
+
         <div id="divFun"></div>
     </body>
 </html>
