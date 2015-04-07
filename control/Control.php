@@ -73,6 +73,12 @@ class Control extends Conexion{
         $this->setQuery("INSERT INTO producto (nombre, precio, cantidad, nomImagen, idTipo) values ('".$nom."','".$precio."','".$cantidad."','".$nomImg."',".$tipo.")");
     }
 
+    public function RegistrarTipo($nombre){
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+        $this->setQuery("INSERT INTO tipoproducto (tipo) values ('".$nombre."')");
+    }
+
     public function productos($id)
     {
         $resultado = Array();
@@ -114,6 +120,22 @@ class Control extends Conexion{
         {
             $this->setQuery("UPDATE producto SET ".$campo."=".$valor." where idProducto=".$id);
         }
+
+    }
+
+    function Verificar_Existencia_Tipo($nombre){
+        $resultado = Array();
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+
+        $rSQL =$this->getQuery("Select * from tipoproducto where tipo='".$nombre."'");
+        if (mysql_num_rows($rSQL) > 0) {
+            while ($fila = mysql_fetch_assoc($rSQL)) {
+                array_push($resultado, $fila);
+            }
+        }
+        $this->cerrarConexion();
+        return $resultado;
 
     }
 

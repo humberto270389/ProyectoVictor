@@ -7,7 +7,7 @@
         <script>
             $(function(){
                 $('#btnAgregarTipoForm').click(function(){
-                    var url='AccionAgregarNuevoTipo.php';
+                    var url='../control/AccionAgregarNuevoTipo.php';
 
                     $.ajax({
                         type:'POST',
@@ -24,8 +24,8 @@
     <body>
        <div id="divAddTipo">
             <form id="formAddTipo">
-                <input type="text" class="btn-sm" placeholder="Ingrese el nuevo tipo de producto" id="idTxtTipo">
-                <input type="button" class="btn btn-danger" value="Agregar" id="btnAgregrTipoForm">
+                <input type="text" class="btn-sm" placeholder="Ingrese el nuevo tipo de producto" id="idTxtTipo" name="idTxtTipo">
+                <input type="button" class="btn btn-danger" value="Agregar" id="btnAgregarTipoForm">
             </form>
        </div>
 
