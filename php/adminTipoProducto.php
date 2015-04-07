@@ -19,6 +19,18 @@
                         }
                 });
             });
+            $('#btnEditarTipo').click(function(){
+                    var url='editarTipoProduc.php';
+
+                    $.ajax({
+                        type:'POST',
+                        url: url,
+                        data: {},
+                        success: function(data){
+                            $('#divFucntionTipo').html(data);
+                        }
+                });
+            });
         });
         </script>
     </header>

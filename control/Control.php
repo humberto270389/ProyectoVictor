@@ -139,6 +139,21 @@ class Control extends Conexion{
 
     }
 
+    function tipoDeProductos($id){
+        $resultado = Array();
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+        $rSQL = $this->getQuery('SELECT * from tipoproducto where id='.$id);
+        if (mysql_num_rows($rSQL) > 0) {
+            while ($fila = mysql_fetch_assoc($rSQL)) {
+                array_push($resultado, $fila);
+            }
+        }
+        $this->cerrarConexion();
+        return $resultado;
+
+    }
+
 }
 
 
