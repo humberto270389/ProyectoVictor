@@ -12,7 +12,6 @@
 	    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	    <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
 	    <script>
-            <script>
             $(function(){
                 $('#btnGuardar').click(function(){
                     var url='../control/AccionEditarTipo.php';
@@ -26,7 +25,7 @@
                         }
                     });
                 });
-            }
+            });
         </script>
     </head>
     <body>
@@ -35,7 +34,7 @@
                 <?php
 
 			   		$conn = new Control();
-			   		$tipos = $conn->tipoDeProductos($id);
+			   		$tipos = $conn->getTipo($id);
 
 			   		foreach($tipos as $indice => $registro){
                         echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo"> <label id="idTipo" value="'.$registro['idTipoProducto'].'"></label>';

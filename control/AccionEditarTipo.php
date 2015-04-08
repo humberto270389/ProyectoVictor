@@ -8,7 +8,7 @@ $nomT=$_POST['idTxtTipo'];
 $idTipo=$_POST['idTipo'];
 
 $nombre;
-$id
+$id;
 
 $resultado = $conn->getTipo($nomT);
 foreach($resultado as $indice => $registro){
