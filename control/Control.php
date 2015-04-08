@@ -154,6 +154,27 @@ class Control extends Conexion{
 
     }
 
+    function getTipo($nomTipo){
+        $resultado = Array();
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+        $rSQL = $this->getQuery('SELECT tipo from tipoproducto where tipo="'.$nomTipo."'");
+        if (mysql_num_rows($rSQL) > 0) {
+            while ($fila = mysql_fetch_assoc($rSQL)) {
+                array_push($resultado, $fila);
+            }
+        }
+        $this->cerrarConexion();
+        return $resultado;
+    }
+
+    function setNomTipo($nombre, $id){
+
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+        $this->setQuery('UPDATE tipoproducto SET tipo ="'.$nombre."' where idTipoProducto=".$id);
+    }
+
 }
 
 

@@ -21,7 +21,7 @@
 			   		$tipos = $conn->tipoDeProductos($id);
 
 			   		foreach($tipos as $indice => $registro){
-                        echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo">';
+                        echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo"> <label id="idTipo" value="'.$registro['idTipoProducto'].'"></label>';
                     }
                 ?>
                 <input type="submit" class="btn-danger" id="btnGuardar" name="btnGuardar" value="Guardar edición">
