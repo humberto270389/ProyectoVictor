@@ -9,8 +9,8 @@
         <link rel="stylesheet" type="text/css" href="../css/editarTipoProduc.css">
         <script>
             function cargar(){
-			var url='edicionProducto.php';
-			var nom=document.getElementById('producto').value;
+			var url='edicionTipoProduc.php';
+			var nom=document.getElementById('tipoProducto').value;
 
 				$.ajax({
 					type:'POST',
