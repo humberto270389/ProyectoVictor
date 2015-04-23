@@ -158,7 +158,7 @@ class Control extends Conexion{
         $resultado = Array();
         $this->abrirConexion();
         $this->seleccionarBD('MTB');
-        $rSQL = $this->getQuery('SELECT tipo from tipoproducto where idTipoProducto='.$idTipo);
+        $rSQL = $this->getQuery('SELECT * from tipoproducto where idTipoProducto='.$idTipo);
         if (mysql_num_rows($rSQL) > 0) {
             while ($fila = mysql_fetch_assoc($rSQL)) {
                 array_push($resultado, $fila);

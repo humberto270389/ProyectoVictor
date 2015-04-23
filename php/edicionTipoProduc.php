@@ -29,7 +29,7 @@
         </script>
     </head>
     <body>
-        <div>
+        <div id="divInfForm">
             <form id="infEditada">
                 <?php
 
@@ -37,7 +37,7 @@
 			   		$tipos = $conn->getTipo($id);
 
 			   		foreach($tipos as $indice => $registro){
-                        echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo"> <label id="idTipo" value="'.$registro['idTipoProducto'].'"></label>';
+                        echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo"> <label id="idTipo" name="idTipo" value="'.$registro['idTipoProducto'].'"></label>';
                     }
                 ?>
                 <input type="button" class="btn-danger" id="btnGuardar" name="btnGuardar" value="Guardar edición">

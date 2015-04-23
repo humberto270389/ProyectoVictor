@@ -47,7 +47,6 @@
                 </nav>
             </div>
             <div id="divFucntionTipo">
-
             </div>
         </section>
     </body>
