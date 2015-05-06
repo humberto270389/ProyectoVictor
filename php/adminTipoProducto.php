@@ -31,6 +31,18 @@
                         }
                 });
             });
+            $('#btnEliminarTipo').click(function(){
+                    var url='eliminarTipoProduc.php';
+
+                    $.ajax({
+                        type:'POST',
+                        url: url,
+                        data: {},
+                        success: function(data){
+                            $('#divFucntionTipo').html(data);
+                        }
+                });
+            });
         });
         </script>
     </header>

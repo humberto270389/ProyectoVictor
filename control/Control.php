@@ -175,6 +175,12 @@ class Control extends Conexion{
         $this->setQuery('UPDATE tipoproducto SET tipo ="'.$nombre.'" where idTipoProducto='.$id);
     }
 
+    function setEliminarTipo($id){
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+        $this->setQuery('DELETE from tipoproducto where id='.$id);
+    }
+
 }
 
 
