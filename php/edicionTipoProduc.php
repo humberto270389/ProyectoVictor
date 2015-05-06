@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../css/edicionTipoProduc.css">
 	    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	    <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
@@ -37,9 +37,11 @@
 			   		$tipos = $conn->getTipo($id);
 
 			   		foreach($tipos as $indice => $registro){
-                        echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo"> <label id="idTipo" name="idTipo" value="'.$registro['idTipoProducto'].'"></label>';
+                        echo '<input type="text" class="btn-sm" value="'.$registro['tipo'].'" id="idTxtTipo" name="idTxtTipo">  <input type="hidden" id="idTipo" name="idTipo" value="'.$registro['idTipoProducto'].'">';
                     }
                 ?>
+                <br>
+                <br>
                 <input type="button" class="btn-danger" id="btnGuardar" name="btnGuardar" value="Guardar edición">
             </form>
         </div>

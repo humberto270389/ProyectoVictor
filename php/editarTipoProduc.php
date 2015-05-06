@@ -5,8 +5,9 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
         <link rel="stylesheet" type="text/css" href="../css/editarTipoProduc.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+        <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
         <script>
             function cargar(){
 			var url='edicionTipoProduc.php';
@@ -24,7 +25,7 @@
         </script>
     </head>
     <body>
-        <div>
+        <div id="divContTipos">
             <SELECT id="tipoProducto" name="tipoProducto" class="btn">
 			   <OPTION VALUE="">-- Seleccione el tipo del Producto --</OPTION>
 			   <?php

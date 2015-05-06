@@ -172,7 +172,7 @@ class Control extends Conexion{
 
         $this->abrirConexion();
         $this->seleccionarBD('MTB');
-        $this->setQuery('UPDATE tipoproducto SET tipo ="'.$nombre."' where idTipoProducto=".$id);
+        $this->setQuery('UPDATE tipoproducto SET tipo ="'.$nombre.'" where idTipoProducto='.$id);
     }
 
 }

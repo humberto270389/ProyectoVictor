@@ -1,0 +1,22 @@
+html, body{
+    width: 100%;
+    min-height: 100%;
+    background-image: url('../img/fondo.png');
+}
+
+#divContTipos{
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+#tipoProducto{
+    display: inline-block;
+    width: 100%;
+}
+
+#btnEditar{
+    display: inline-block;
+    width: 100%;
+}

@@ -10,7 +10,7 @@ $idTipo=$_POST['idTipo'];
 $nombre;
 $id;
 
-$resultado = $conn->getTipo($nomT);
+$resultado = $conn->getTipo($idTipo);
 foreach($resultado as $indice => $registro){
     $nombre=$registro['tipo'];
 }
