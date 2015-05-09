@@ -14,10 +14,10 @@ html, body{
 
 #tipoProducto{
     display: inline-block;
-    width: 100%;
+    width: 50%;
 }
 
 #btnEditar{
     display: inline-block;
-    width: 100%;
+    width: 50%;
 }

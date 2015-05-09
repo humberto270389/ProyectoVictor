@@ -178,7 +178,22 @@ class Control extends Conexion{
     function setEliminarTipo($id){
         $this->abrirConexion();
         $this->seleccionarBD('MTB');
-        $this->setQuery('DELETE from tipoproducto where id='.$id);
+
+        $resul= $this->getQuery('select count(*) as cont from producto where idTipo='.$id);
+
+        $datos=mysql_fetch_array($resul);
+        $existe=$datos['cont'];
+
+        if($existe!=0)
+        {
+            return false;
+        }
+        else
+        {
+            $this->setQuery('DELETE from tipoproducto where idTipoProducto='.$id);
+            return true;
+        }
+
     }
 
 }
