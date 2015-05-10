@@ -1,0 +1,67 @@
+html, body{
+    width: 100%;
+    min-height: 100%;
+    background-image: url('../img/fondo.png');
+}
+
+#divContEdicion{
+	width: 100%;
+	text-align: center
+}
+
+#divProducto{
+	width: 100%;
+	text-align: center;
+
+}
+
+#divImgProduc{
+	display: inline-block;
+	margin: 0.5em auto;
+	width: 48%;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 2px  double #ff002b;
+	vertical-align: top;
+}
+
+#divInfProduc{
+	display: inline-block;
+	margin: 0.5em auto;
+	width: 48%;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 2px  double #ff002b;
+	vertical-align: top;
+}
+
+form{
+	width: 100%;
+	margin: 0.5em auto
+}
+
+
+
+form input{
+	width: 94%;
+	margin: 0.5em auto
+}
+
+form label{
+	width: 94%;
+	margin: 0.5em auto
+}
+
+#imgProducto{
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 180px;
+	height: 290px
+}
+
+#inpId{
+	visibility: hidden;
+	background: red;
+}

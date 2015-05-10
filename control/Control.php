@@ -196,6 +196,28 @@ class Control extends Conexion{
 
     }
 
+    function setEliminar($id){
+        $this->abrirConexion();
+        $this->seleccionarBD('MTB');
+
+        $result=$this->setQuery('select cantidad from producto where idProducto='.$id);
+
+        $datos=mysql_fetch_array($resul);
+        $existe=$datos['cantidad'];
+
+        if($existe!=0)
+        {
+            return false;
+        }
+        else
+        {
+            $this->setQuery('DELETE from producto where idProducto='.$id);
+            return true;
+        }
+
+
+    }
+
 }
 
 

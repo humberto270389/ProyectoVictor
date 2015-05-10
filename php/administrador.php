@@ -68,6 +68,19 @@
                     });
             });
 
+            $('#AbtnElimProduc').click(function(){
+                var url='eliminarProducto.php';
+
+                    $.ajax({
+                        type:'POST',
+                        url: url,
+                        data:{},
+                        success: function(data){
+                            $('#AdivFuncion').html(data);
+                        }
+                    });
+            });
+
         });
 
     </script>
