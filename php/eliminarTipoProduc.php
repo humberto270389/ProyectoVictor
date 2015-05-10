@@ -10,7 +10,7 @@
         <script type="text/javascript" src="../JS/jquery-1.11.2.min.js"></script>
         <script>
             function eliminar(){
-			var url='../control/accionEliminarTipoProduc.php';
+			var url='../control/AccionEliminarTipoProduc.php';
 			var nom=document.getElementById('tipoProducto').value;
 
 				$.ajax({

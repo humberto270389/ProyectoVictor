@@ -202,7 +202,7 @@ class Control extends Conexion{
 
         $result=$this->setQuery('select cantidad from producto where idProducto='.$id);
 
-        $datos=mysql_fetch_array($resul);
+        $datos=mysql_fetch_array($result);
         $existe=$datos['cantidad'];
 
         if($existe!=0)
