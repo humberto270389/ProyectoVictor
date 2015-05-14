@@ -200,7 +200,7 @@ class Control extends Conexion{
         $this->abrirConexion();
         $this->seleccionarBD('MTB');
 
-        $result=$this->setQuery('select cantidad from producto where idProducto='.$id);
+        $result=$this->getQuery('select cantidad as cantidad from producto where idProducto='.$id);
 
         $datos=mysql_fetch_array($result);
         $existe=$datos['cantidad'];

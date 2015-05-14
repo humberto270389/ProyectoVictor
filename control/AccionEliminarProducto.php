@@ -24,6 +24,7 @@ else
     ?>
         <script>
             alert("El producto NO se puede eliminar por que existen productos aun!");
+            window.location="http://localhost/ProyectoVictor/php/administrador.php";
         </script>
     <?php
 }
